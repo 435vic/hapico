@@ -1,0 +1,33 @@
+{
+  "name": "hapico",
+  "version": "1.2.0",
+  "description": "Provides Minecraft integration into a discord server and allows communication between the two.",
+  "main": "src/index.ts",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "vico",
+  "type": "module",
+  "license": "ISC",
+  "devDependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "canvas": "^2.8.0",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.1.0",
+    "pino-pretty": "^8.1.0",
+    "sequelize": "^6.6.4",
+    "sqlite3": "^5.0.2",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@keyv/sqlite": "^3.5.2",
+    "dotenv": "^16.0.1",
+    "keyv": "^4.3.2",
+    "node-fetch": "^3.2.6",
+    "pino": "^8.1.0",
+    "socket.io-client": "^4.5.1"
+  }
+}
