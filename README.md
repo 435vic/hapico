@@ -4,6 +4,8 @@ Hapico is a Discord bot written in Typescript that connects a Minecraft server w
 minecraft server. It includes a leveling system, replacing bots like MEE6, administration commands,
 Minecraft-Discord cross chat, and a constantly updating player list.
 
+The source code for the Spigot plugin used on the minecraft server to enable integration is available [here](https://github.com/435vic/DiscordIntegration).
+
 ## Dependencies
 Hapico requires extra packages to render images with canvas. More information can be found in the
 [NPM entry](https://www.npmjs.com/package/canvas) for the package.
